@@ -1,6 +1,9 @@
 import logging
 
 import algokit_utils
+#import dotenv from "dotenv";
+
+#dotenv.config();
 
 logger = logging.getLogger(__name__)
 
