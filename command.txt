@@ -1,3 +1,5 @@
 algokit project run build
 
 algokit project deploy localnet
+
+algokit generate client smart_contracts/artifacts
