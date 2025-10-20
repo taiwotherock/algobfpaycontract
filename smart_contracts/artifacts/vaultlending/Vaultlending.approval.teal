@@ -138,7 +138,39 @@ deposit_algo:
     txn Sender
     ==
     assert // SENDER_MISMATCH
-    // smart_contracts/vaultlending/contract.py:50
+    // smart_contracts/vaultlending/contract.py:50-54
+    // # Inner payment transaction to self (the vault)
+    // itxn.Payment(
+    //     receiver=Global.current_application_address,
+    //     amount=payment.amount
+    // ).submit()
+    itxn_begin
+    // smart_contracts/vaultlending/contract.py:52
+    // receiver=Global.current_application_address,
+    global CurrentApplicationAddress
+    // smart_contracts/vaultlending/contract.py:53
+    // amount=payment.amount
+    swap
+    gtxns Amount
+    dup
+    itxn_field Amount
+    swap
+    itxn_field Receiver
+    // smart_contracts/vaultlending/contract.py:50-51
+    // # Inner payment transaction to self (the vault)
+    // itxn.Payment(
+    intc_1 // pay
+    itxn_field TypeEnum
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/vaultlending/contract.py:50-54
+    // # Inner payment transaction to self (the vault)
+    // itxn.Payment(
+    //     receiver=Global.current_application_address,
+    //     amount=payment.amount
+    // ).submit()
+    itxn_submit
+    // smart_contracts/vaultlending/contract.py:56
     // current = self.algo_deposits.get(Txn.sender, default=UInt64(0))
     bytec 4 // "algo_deposits"
     txn Sender
@@ -150,10 +182,8 @@ deposit_algo:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:51
+    // smart_contracts/vaultlending/contract.py:57
     // self.algo_deposits[Txn.sender] = current + payment.amount
-    swap
-    gtxns Amount
     +
     bytec 4 // "algo_deposits"
     txn Sender
@@ -169,7 +199,7 @@ deposit_algo:
 
 // smart_contracts.vaultlending.contract.Vaultlending.deposit_asset[routing]() -> void:
 deposit_asset:
-    // smart_contracts/vaultlending/contract.py:53
+    // smart_contracts/vaultlending/contract.py:59
     // @abimethod
     txn GroupIndex
     intc_1 // 1
@@ -179,21 +209,21 @@ deposit_asset:
     intc_3 // axfer
     ==
     assert // transaction type is axfer
-    // smart_contracts/vaultlending/contract.py:56
+    // smart_contracts/vaultlending/contract.py:62
     // assert asset_txn.asset_receiver == Global.current_application_address, "WRONG_RECEIVER"
     dup
     gtxns AssetReceiver
     global CurrentApplicationAddress
     ==
     assert // WRONG_RECEIVER
-    // smart_contracts/vaultlending/contract.py:57
+    // smart_contracts/vaultlending/contract.py:63
     // assert asset_txn.sender == Txn.sender, "SENDER_MISMATCH"
     dup
     gtxns Sender
     txn Sender
     ==
     assert // SENDER_MISMATCH
-    // smart_contracts/vaultlending/contract.py:58
+    // smart_contracts/vaultlending/contract.py:64
     // assert asset_txn.xfer_asset == self.vault_asset, "INVALID_ASSET"
     dup
     gtxns XferAsset
@@ -203,7 +233,7 @@ deposit_asset:
     assert // check self.vault_asset exists
     ==
     assert // INVALID_ASSET
-    // smart_contracts/vaultlending/contract.py:60
+    // smart_contracts/vaultlending/contract.py:66
     // current = self.asset_deposits.get(Txn.sender, default=UInt64(0))
     bytec_0 // "asset_deposits"
     txn Sender
@@ -215,7 +245,7 @@ deposit_asset:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:61
+    // smart_contracts/vaultlending/contract.py:67
     // self.asset_deposits[Txn.sender] = current + asset_txn.asset_amount
     swap
     gtxns AssetAmount
@@ -226,7 +256,7 @@ deposit_asset:
     swap
     itob
     box_put
-    // smart_contracts/vaultlending/contract.py:53
+    // smart_contracts/vaultlending/contract.py:59
     // @abimethod
     intc_1 // 1
     return
@@ -234,7 +264,7 @@ deposit_asset:
 
 // smart_contracts.vaultlending.contract.Vaultlending.withdraw_algo[routing]() -> void:
 withdraw_algo:
-    // smart_contracts/vaultlending/contract.py:65
+    // smart_contracts/vaultlending/contract.py:71
     // @abimethod
     txna ApplicationArgs 1
     dup
@@ -242,7 +272,7 @@ withdraw_algo:
     intc_2 // 8
     ==
     assert // invalid number of bytes for uint64
-    // smart_contracts/vaultlending/contract.py:68
+    // smart_contracts/vaultlending/contract.py:74
     // assert self.whitelist.get(Txn.sender, default=arc4.Bool(False)), "NOT_WHITELISTED"
     bytec_3 // "whitelist"
     txn Sender
@@ -254,7 +284,7 @@ withdraw_algo:
     bytec_1 // 0x00
     !=
     assert // NOT_WHITELISTED
-    // smart_contracts/vaultlending/contract.py:70
+    // smart_contracts/vaultlending/contract.py:76
     // current = self.algo_deposits.get(Txn.sender, default=UInt64(0))
     bytec 4 // "algo_deposits"
     txn Sender
@@ -266,14 +296,14 @@ withdraw_algo:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:71
+    // smart_contracts/vaultlending/contract.py:77
     // assert current >= amount.native, "INSUFFICIENT_BALANCE"
     swap
     btoi
     dup2
     >=
     assert // INSUFFICIENT_BALANCE
-    // smart_contracts/vaultlending/contract.py:73
+    // smart_contracts/vaultlending/contract.py:79
     // self.algo_deposits[Txn.sender] = current - amount.native
     swap
     dig 1
@@ -284,30 +314,30 @@ withdraw_algo:
     swap
     itob
     box_put
-    // smart_contracts/vaultlending/contract.py:75-78
+    // smart_contracts/vaultlending/contract.py:81-84
     // itxn.Payment(
     //     receiver=Txn.sender,
     //     amount=amount.native,
     // ).submit()
     itxn_begin
-    // smart_contracts/vaultlending/contract.py:76
+    // smart_contracts/vaultlending/contract.py:82
     // receiver=Txn.sender,
     txn Sender
     itxn_field Receiver
     itxn_field Amount
-    // smart_contracts/vaultlending/contract.py:75
+    // smart_contracts/vaultlending/contract.py:81
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/vaultlending/contract.py:75-78
+    // smart_contracts/vaultlending/contract.py:81-84
     // itxn.Payment(
     //     receiver=Txn.sender,
     //     amount=amount.native,
     // ).submit()
     itxn_submit
-    // smart_contracts/vaultlending/contract.py:65
+    // smart_contracts/vaultlending/contract.py:71
     // @abimethod
     intc_1 // 1
     return
@@ -315,7 +345,7 @@ withdraw_algo:
 
 // smart_contracts.vaultlending.contract.Vaultlending.withdraw_asset[routing]() -> void:
 withdraw_asset:
-    // smart_contracts/vaultlending/contract.py:80
+    // smart_contracts/vaultlending/contract.py:86
     // @abimethod
     txna ApplicationArgs 1
     dup
@@ -323,7 +353,7 @@ withdraw_asset:
     intc_2 // 8
     ==
     assert // invalid number of bytes for uint64
-    // smart_contracts/vaultlending/contract.py:83
+    // smart_contracts/vaultlending/contract.py:89
     // assert self.whitelist.get(Txn.sender, default=arc4.Bool(False)), "NOT_WHITELISTED"
     bytec_3 // "whitelist"
     txn Sender
@@ -335,7 +365,7 @@ withdraw_asset:
     bytec_1 // 0x00
     !=
     assert // NOT_WHITELISTED
-    // smart_contracts/vaultlending/contract.py:85
+    // smart_contracts/vaultlending/contract.py:91
     // current = self.asset_deposits.get(Txn.sender, default=UInt64(0))
     bytec_0 // "asset_deposits"
     txn Sender
@@ -347,14 +377,14 @@ withdraw_asset:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:86
+    // smart_contracts/vaultlending/contract.py:92
     // assert current >= amount.native, "INSUFFICIENT_BALANCE"
     swap
     btoi
     dup2
     >=
     assert // INSUFFICIENT_BALANCE
-    // smart_contracts/vaultlending/contract.py:88
+    // smart_contracts/vaultlending/contract.py:94
     // self.asset_deposits[Txn.sender] = current - amount.native
     swap
     dig 1
@@ -365,40 +395,40 @@ withdraw_asset:
     swap
     itob
     box_put
-    // smart_contracts/vaultlending/contract.py:90-94
+    // smart_contracts/vaultlending/contract.py:96-100
     // itxn.AssetTransfer(
     //     xfer_asset=self.vault_asset,
     //     asset_receiver=Txn.sender,
     //     asset_amount=amount.native,
     // ).submit()
     itxn_begin
-    // smart_contracts/vaultlending/contract.py:91
+    // smart_contracts/vaultlending/contract.py:97
     // xfer_asset=self.vault_asset,
     intc_0 // 0
     bytec_2 // "vault_asset"
     app_global_get_ex
     assert // check self.vault_asset exists
-    // smart_contracts/vaultlending/contract.py:92
+    // smart_contracts/vaultlending/contract.py:98
     // asset_receiver=Txn.sender,
     txn Sender
     uncover 2
     itxn_field AssetAmount
     itxn_field AssetReceiver
     itxn_field XferAsset
-    // smart_contracts/vaultlending/contract.py:90
+    // smart_contracts/vaultlending/contract.py:96
     // itxn.AssetTransfer(
     intc_3 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/vaultlending/contract.py:90-94
+    // smart_contracts/vaultlending/contract.py:96-100
     // itxn.AssetTransfer(
     //     xfer_asset=self.vault_asset,
     //     asset_receiver=Txn.sender,
     //     asset_amount=amount.native,
     // ).submit()
     itxn_submit
-    // smart_contracts/vaultlending/contract.py:80
+    // smart_contracts/vaultlending/contract.py:86
     // @abimethod
     intc_1 // 1
     return
@@ -406,7 +436,7 @@ withdraw_asset:
 
 // smart_contracts.vaultlending.contract.Vaultlending.borrow_to_merchant[routing]() -> void:
 borrow_to_merchant:
-    // smart_contracts/vaultlending/contract.py:98
+    // smart_contracts/vaultlending/contract.py:104
     // @abimethod
     txna ApplicationArgs 1
     dup
@@ -420,7 +450,7 @@ borrow_to_merchant:
     intc_2 // 8
     ==
     assert // invalid number of bytes for uint64
-    // smart_contracts/vaultlending/contract.py:105
+    // smart_contracts/vaultlending/contract.py:111
     // assert self.whitelist.get(Txn.sender, default=arc4.Bool(False)), "CREDIT_OFFICER_NOT_WHITELISTED"
     bytec_3 // "whitelist"
     txn Sender
@@ -432,27 +462,27 @@ borrow_to_merchant:
     bytec_1 // 0x00
     !=
     assert // CREDIT_OFFICER_NOT_WHITELISTED
-    // smart_contracts/vaultlending/contract.py:106
+    // smart_contracts/vaultlending/contract.py:112
     // assert self.whitelist.get(merchant, default=arc4.Bool(False)), "MERCHANT_NOT_WHITELISTED"
     bytec_3 // "whitelist"
     dig 2
     concat
     box_get
-    // smart_contracts/vaultlending/contract.py:105
+    // smart_contracts/vaultlending/contract.py:111
     // assert self.whitelist.get(Txn.sender, default=arc4.Bool(False)), "CREDIT_OFFICER_NOT_WHITELISTED"
     bytec_1 // 0x00
-    // smart_contracts/vaultlending/contract.py:106
+    // smart_contracts/vaultlending/contract.py:112
     // assert self.whitelist.get(merchant, default=arc4.Bool(False)), "MERCHANT_NOT_WHITELISTED"
     cover 2
     select
-    // smart_contracts/vaultlending/contract.py:105
+    // smart_contracts/vaultlending/contract.py:111
     // assert self.whitelist.get(Txn.sender, default=arc4.Bool(False)), "CREDIT_OFFICER_NOT_WHITELISTED"
     bytec_1 // 0x00
-    // smart_contracts/vaultlending/contract.py:106
+    // smart_contracts/vaultlending/contract.py:112
     // assert self.whitelist.get(merchant, default=arc4.Bool(False)), "MERCHANT_NOT_WHITELISTED"
     !=
     assert // MERCHANT_NOT_WHITELISTED
-    // smart_contracts/vaultlending/contract.py:108
+    // smart_contracts/vaultlending/contract.py:114
     // vault_balance = self.asset_deposits.get(Global.current_application_address, default=UInt64(0))
     bytec_0 // "asset_deposits"
     global CurrentApplicationAddress
@@ -464,14 +494,14 @@ borrow_to_merchant:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:109
+    // smart_contracts/vaultlending/contract.py:115
     // assert vault_balance >= amount.native, "VAULT_EMPTY"
     swap
     btoi
     dup2
     >=
     assert // VAULT_EMPTY
-    // smart_contracts/vaultlending/contract.py:111-112
+    // smart_contracts/vaultlending/contract.py:117-118
     // # Update vault balance and transfer to merchant
     // self.asset_deposits[Global.current_application_address] = vault_balance - amount.native
     swap
@@ -483,14 +513,14 @@ borrow_to_merchant:
     swap
     itob
     box_put
-    // smart_contracts/vaultlending/contract.py:114-118
+    // smart_contracts/vaultlending/contract.py:120-124
     // itxn.AssetTransfer(
     //     xfer_asset=self.vault_asset,
     //     asset_receiver=merchant,
     //     asset_amount=amount.native,
     // ).submit()
     itxn_begin
-    // smart_contracts/vaultlending/contract.py:115
+    // smart_contracts/vaultlending/contract.py:121
     // xfer_asset=self.vault_asset,
     intc_0 // 0
     bytec_2 // "vault_asset"
@@ -499,20 +529,20 @@ borrow_to_merchant:
     itxn_field XferAsset
     itxn_field AssetAmount
     itxn_field AssetReceiver
-    // smart_contracts/vaultlending/contract.py:114
+    // smart_contracts/vaultlending/contract.py:120
     // itxn.AssetTransfer(
     intc_3 // axfer
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/vaultlending/contract.py:114-118
+    // smart_contracts/vaultlending/contract.py:120-124
     // itxn.AssetTransfer(
     //     xfer_asset=self.vault_asset,
     //     asset_receiver=merchant,
     //     asset_amount=amount.native,
     // ).submit()
     itxn_submit
-    // smart_contracts/vaultlending/contract.py:98
+    // smart_contracts/vaultlending/contract.py:104
     // @abimethod
     intc_1 // 1
     return
@@ -520,7 +550,7 @@ borrow_to_merchant:
 
 // smart_contracts.vaultlending.contract.Vaultlending.repay_loan[routing]() -> void:
 repay_loan:
-    // smart_contracts/vaultlending/contract.py:120
+    // smart_contracts/vaultlending/contract.py:126
     // @abimethod
     txn GroupIndex
     intc_1 // 1
@@ -530,7 +560,7 @@ repay_loan:
     intc_3 // axfer
     ==
     assert // transaction type is axfer
-    // smart_contracts/vaultlending/contract.py:123
+    // smart_contracts/vaultlending/contract.py:129
     // assert asset_txn.xfer_asset == self.vault_asset, "INVALID_ASSET"
     dup
     gtxns XferAsset
@@ -540,14 +570,14 @@ repay_loan:
     assert // check self.vault_asset exists
     ==
     assert // INVALID_ASSET
-    // smart_contracts/vaultlending/contract.py:124
+    // smart_contracts/vaultlending/contract.py:130
     // assert asset_txn.asset_receiver == Global.current_application_address, "WRONG_RECEIVER"
     dup
     gtxns AssetReceiver
     global CurrentApplicationAddress
     ==
     assert // WRONG_RECEIVER
-    // smart_contracts/vaultlending/contract.py:126
+    // smart_contracts/vaultlending/contract.py:132
     // current = self.asset_deposits.get(Txn.sender, default=UInt64(0))
     bytec_0 // "asset_deposits"
     txn Sender
@@ -559,7 +589,7 @@ repay_loan:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:127
+    // smart_contracts/vaultlending/contract.py:133
     // self.asset_deposits[Txn.sender] = current + asset_txn.asset_amount
     swap
     gtxns AssetAmount
@@ -570,7 +600,7 @@ repay_loan:
     swap
     itob
     box_put
-    // smart_contracts/vaultlending/contract.py:120
+    // smart_contracts/vaultlending/contract.py:126
     // @abimethod
     intc_1 // 1
     return
@@ -578,7 +608,7 @@ repay_loan:
 
 // smart_contracts.vaultlending.contract.Vaultlending.get_balance[routing]() -> void:
 get_balance:
-    // smart_contracts/vaultlending/contract.py:131
+    // smart_contracts/vaultlending/contract.py:137
     // @abimethod(readonly=True)
     txna ApplicationArgs 1
     dup
@@ -586,7 +616,7 @@ get_balance:
     pushint 32 // 32
     ==
     assert // invalid number of bytes for uint8[32]
-    // smart_contracts/vaultlending/contract.py:134
+    // smart_contracts/vaultlending/contract.py:140
     // algo_balance = self.algo_deposits.get(account, default=UInt64(0))
     bytec 4 // "algo_deposits"
     dig 1
@@ -598,7 +628,7 @@ get_balance:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:135
+    // smart_contracts/vaultlending/contract.py:141
     // asset_balance = self.asset_deposits.get(account, default=UInt64(0))
     bytec_0 // "asset_deposits"
     uncover 2
@@ -610,11 +640,11 @@ get_balance:
     swap
     uncover 2
     select
-    // smart_contracts/vaultlending/contract.py:136
+    // smart_contracts/vaultlending/contract.py:142
     // return arc4.UInt64(algo_balance + asset_balance)
     +
     itob
-    // smart_contracts/vaultlending/contract.py:131
+    // smart_contracts/vaultlending/contract.py:137
     // @abimethod(readonly=True)
     bytec 6 // 0x151f7c75
     swap
@@ -626,7 +656,7 @@ get_balance:
 
 // smart_contracts.vaultlending.contract.Vaultlending.hello[routing]() -> void:
 hello:
-    // smart_contracts/vaultlending/contract.py:140
+    // smart_contracts/vaultlending/contract.py:146
     // @abimethod
     txna ApplicationArgs 1
     dup
@@ -639,12 +669,12 @@ hello:
     ==
     assert // invalid number of bytes for (len+utf8[])
     extract 2 0
-    // smart_contracts/vaultlending/contract.py:143
+    // smart_contracts/vaultlending/contract.py:149
     // return "Hello, " + name
     pushbytes "Hello, "
     swap
     concat
-    // smart_contracts/vaultlending/contract.py:140
+    // smart_contracts/vaultlending/contract.py:146
     // @abimethod
     dup
     len

@@ -47,6 +47,12 @@ class Vaultlending(ARC4Contract):
         assert payment.receiver == Global.current_application_address, "WRONG_RECEIVER"
         assert payment.sender == Txn.sender, "SENDER_MISMATCH"
 
+        # Inner payment transaction to self (the vault)
+        itxn.Payment(
+            receiver=Global.current_application_address,
+            amount=payment.amount
+        ).submit()
+
         current = self.algo_deposits.get(Txn.sender, default=UInt64(0))
         self.algo_deposits[Txn.sender] = current + payment.amount
 

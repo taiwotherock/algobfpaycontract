@@ -3,7 +3,7 @@
   "sources": [
     "../../vaultlending/contract.py"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -909,137 +909,211 @@
       ]
     },
     "265": {
-      "op": "bytec 4 // \"algo_deposits\"",
+      "op": "itxn_begin"
+    },
+    "266": {
+      "op": "global CurrentApplicationAddress",
       "defined_out": [
-        "\"algo_deposits\"",
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
         "payment#0"
       ],
       "stack_out": [
         "payment#0",
-        "\"algo_deposits\""
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "267": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"algo_deposits\"",
-        "materialized_values%0#0",
-        "payment#0"
-      ],
+    "268": {
+      "op": "swap",
       "stack_out": [
-        "payment#0",
-        "\"algo_deposits\"",
-        "materialized_values%0#0"
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "payment#0"
       ]
     },
     "269": {
-      "op": "concat",
+      "op": "gtxns Amount",
       "defined_out": [
-        "box_prefixed_key%0#0",
-        "payment#0"
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
       ],
       "stack_out": [
-        "payment#0",
-        "box_prefixed_key%0#0"
-      ]
-    },
-    "270": {
-      "op": "box_get",
-      "defined_out": [
-        "maybe_exists%0#0",
-        "maybe_value%0#0",
-        "payment#0"
-      ],
-      "stack_out": [
-        "payment#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
       ]
     },
     "271": {
-      "op": "swap",
+      "op": "dup",
+      "defined_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0 (copy)",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
       "stack_out": [
-        "payment#0",
-        "maybe_exists%0#0",
-        "maybe_value%0#0"
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0 (copy)"
       ]
     },
     "272": {
-      "op": "btoi",
-      "defined_out": [
-        "maybe_exists%0#0",
-        "maybe_value_converted%0#0",
-        "payment#0"
-      ],
+      "op": "itxn_field Amount",
       "stack_out": [
-        "payment#0",
-        "maybe_exists%0#0",
-        "maybe_value_converted%0#0"
-      ]
-    },
-    "273": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "maybe_exists%0#0",
-        "maybe_value_converted%0#0",
-        "payment#0"
-      ],
-      "stack_out": [
-        "payment#0",
-        "maybe_exists%0#0",
-        "maybe_value_converted%0#0",
-        "0"
+        "inner_txn_params%0%%param_Receiver_idx_0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
       ]
     },
     "274": {
       "op": "swap",
       "stack_out": [
-        "payment#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "275": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ]
+    },
+    "277": {
+      "op": "intc_1 // pay",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "pay"
+      ]
+    },
+    "278": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ]
+    },
+    "280": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "0"
+      ]
+    },
+    "281": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ]
+    },
+    "283": {
+      "op": "itxn_submit"
+    },
+    "284": {
+      "op": "bytec 4 // \"algo_deposits\"",
+      "defined_out": [
+        "\"algo_deposits\"",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "\"algo_deposits\""
+      ]
+    },
+    "286": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"algo_deposits\"",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "\"algo_deposits\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "288": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "289": {
+      "op": "box_get",
+      "defined_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "290": {
+      "op": "swap",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "291": {
+      "op": "btoi",
+      "defined_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_exists%0#0",
+        "maybe_value_converted%0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_exists%0#0",
+        "maybe_value_converted%0#0"
+      ]
+    },
+    "292": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
+        "maybe_exists%0#0",
+        "maybe_value_converted%0#0",
+        "0"
+      ]
+    },
+    "293": {
+      "op": "swap",
+      "stack_out": [
+        "inner_txn_params%0%%param_Amount_idx_0#0",
         "maybe_exists%0#0",
         "0",
         "maybe_value_converted%0#0"
       ]
     },
-    "275": {
+    "294": {
       "op": "uncover 2",
       "stack_out": [
-        "payment#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
         "0",
         "maybe_value_converted%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "277": {
+    "296": {
       "op": "select",
       "defined_out": [
         "current#0",
-        "payment#0"
+        "inner_txn_params%0%%param_Amount_idx_0#0"
       ],
       "stack_out": [
-        "payment#0",
+        "inner_txn_params%0%%param_Amount_idx_0#0",
         "current#0"
       ]
     },
-    "278": {
-      "op": "swap",
-      "stack_out": [
-        "current#0",
-        "payment#0"
-      ]
-    },
-    "279": {
-      "op": "gtxns Amount",
-      "defined_out": [
-        "current#0",
-        "tmp%6#0"
-      ],
-      "stack_out": [
-        "current#0",
-        "tmp%6#0"
-      ]
-    },
-    "281": {
+    "297": {
       "op": "+",
       "defined_out": [
         "tmp%7#0"
@@ -1048,14 +1122,14 @@
         "tmp%7#0"
       ]
     },
-    "282": {
+    "298": {
       "op": "bytec 4 // \"algo_deposits\"",
       "stack_out": [
         "tmp%7#0",
         "\"algo_deposits\""
       ]
     },
-    "284": {
+    "300": {
       "op": "txn Sender",
       "defined_out": [
         "\"algo_deposits\"",
@@ -1068,7 +1142,7 @@
         "materialized_values%1#0"
       ]
     },
-    "286": {
+    "302": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -1079,14 +1153,14 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "287": {
+    "303": {
       "op": "swap",
       "stack_out": [
         "box_prefixed_key%1#0",
         "tmp%7#0"
       ]
     },
-    "288": {
+    "304": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -1097,21 +1171,21 @@
         "encoded_value%0#0"
       ]
     },
-    "289": {
+    "305": {
       "op": "box_put",
       "stack_out": []
     },
-    "290": {
+    "306": {
       "op": "intc_1 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "291": {
+    "307": {
       "op": "return",
       "stack_out": []
     },
-    "292": {
+    "308": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.deposit_asset[routing]",
       "params": {},
       "block": "deposit_asset",
@@ -1124,7 +1198,7 @@
         "tmp%0#0"
       ]
     },
-    "294": {
+    "310": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -1135,7 +1209,7 @@
         "1"
       ]
     },
-    "295": {
+    "311": {
       "op": "-",
       "defined_out": [
         "asset_txn#0"
@@ -1144,7 +1218,7 @@
         "asset_txn#0"
       ]
     },
-    "296": {
+    "312": {
       "op": "dup",
       "defined_out": [
         "asset_txn#0",
@@ -1155,7 +1229,7 @@
         "asset_txn#0 (copy)"
       ]
     },
-    "297": {
+    "313": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "asset_txn#0",
@@ -1166,7 +1240,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "299": {
+    "315": {
       "op": "intc_3 // axfer",
       "defined_out": [
         "asset_txn#0",
@@ -1179,7 +1253,7 @@
         "axfer"
       ]
     },
-    "300": {
+    "316": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -1190,21 +1264,21 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "301": {
+    "317": {
       "error": "transaction type is axfer",
       "op": "assert // transaction type is axfer",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "302": {
+    "318": {
       "op": "dup",
       "stack_out": [
         "asset_txn#0",
         "asset_txn#0 (copy)"
       ]
     },
-    "303": {
+    "319": {
       "op": "gtxns AssetReceiver",
       "defined_out": [
         "asset_txn#0",
@@ -1215,7 +1289,7 @@
         "tmp%0#1"
       ]
     },
-    "305": {
+    "321": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset_txn#0",
@@ -1228,7 +1302,7 @@
         "tmp%1#0"
       ]
     },
-    "307": {
+    "323": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -1239,21 +1313,21 @@
         "tmp%2#0"
       ]
     },
-    "308": {
+    "324": {
       "error": "WRONG_RECEIVER",
       "op": "assert // WRONG_RECEIVER",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "309": {
+    "325": {
       "op": "dup",
       "stack_out": [
         "asset_txn#0",
         "asset_txn#0 (copy)"
       ]
     },
-    "310": {
+    "326": {
       "op": "gtxns Sender",
       "defined_out": [
         "asset_txn#0",
@@ -1264,7 +1338,7 @@
         "tmp%3#0"
       ]
     },
-    "312": {
+    "328": {
       "op": "txn Sender",
       "defined_out": [
         "asset_txn#0",
@@ -1277,7 +1351,7 @@
         "tmp%4#0"
       ]
     },
-    "314": {
+    "330": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -1288,21 +1362,21 @@
         "tmp%5#0"
       ]
     },
-    "315": {
+    "331": {
       "error": "SENDER_MISMATCH",
       "op": "assert // SENDER_MISMATCH",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "316": {
+    "332": {
       "op": "dup",
       "stack_out": [
         "asset_txn#0",
         "asset_txn#0 (copy)"
       ]
     },
-    "317": {
+    "333": {
       "op": "gtxns XferAsset",
       "defined_out": [
         "asset_txn#0",
@@ -1313,7 +1387,7 @@
         "tmp%6#0"
       ]
     },
-    "319": {
+    "335": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -1326,7 +1400,7 @@
         "0"
       ]
     },
-    "320": {
+    "336": {
       "op": "bytec_2 // \"vault_asset\"",
       "defined_out": [
         "\"vault_asset\"",
@@ -1341,7 +1415,7 @@
         "\"vault_asset\""
       ]
     },
-    "321": {
+    "337": {
       "op": "app_global_get_ex",
       "defined_out": [
         "asset_txn#0",
@@ -1356,7 +1430,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "322": {
+    "338": {
       "error": "check self.vault_asset exists",
       "op": "assert // check self.vault_asset exists",
       "stack_out": [
@@ -1365,7 +1439,7 @@
         "maybe_value%0#0"
       ]
     },
-    "323": {
+    "339": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -1376,14 +1450,14 @@
         "tmp%7#0"
       ]
     },
-    "324": {
+    "340": {
       "error": "INVALID_ASSET",
       "op": "assert // INVALID_ASSET",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "325": {
+    "341": {
       "op": "bytec_0 // \"asset_deposits\"",
       "defined_out": [
         "\"asset_deposits\"",
@@ -1394,7 +1468,7 @@
         "\"asset_deposits\""
       ]
     },
-    "326": {
+    "342": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -1407,7 +1481,7 @@
         "materialized_values%0#0"
       ]
     },
-    "328": {
+    "344": {
       "op": "concat",
       "defined_out": [
         "asset_txn#0",
@@ -1418,7 +1492,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "329": {
+    "345": {
       "op": "box_get",
       "defined_out": [
         "asset_txn#0",
@@ -1431,7 +1505,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "330": {
+    "346": {
       "op": "swap",
       "stack_out": [
         "asset_txn#0",
@@ -1439,7 +1513,7 @@
         "maybe_value%1#0"
       ]
     },
-    "331": {
+    "347": {
       "op": "btoi",
       "defined_out": [
         "asset_txn#0",
@@ -1452,7 +1526,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "332": {
+    "348": {
       "op": "intc_0 // 0",
       "stack_out": [
         "asset_txn#0",
@@ -1461,7 +1535,7 @@
         "0"
       ]
     },
-    "333": {
+    "349": {
       "op": "swap",
       "stack_out": [
         "asset_txn#0",
@@ -1470,7 +1544,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "334": {
+    "350": {
       "op": "uncover 2",
       "stack_out": [
         "asset_txn#0",
@@ -1479,7 +1553,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "336": {
+    "352": {
       "op": "select",
       "defined_out": [
         "asset_txn#0",
@@ -1490,14 +1564,14 @@
         "current#0"
       ]
     },
-    "337": {
+    "353": {
       "op": "swap",
       "stack_out": [
         "current#0",
         "asset_txn#0"
       ]
     },
-    "338": {
+    "354": {
       "op": "gtxns AssetAmount",
       "defined_out": [
         "current#0",
@@ -1508,7 +1582,7 @@
         "tmp%8#0"
       ]
     },
-    "340": {
+    "356": {
       "op": "+",
       "defined_out": [
         "tmp%9#0"
@@ -1517,14 +1591,14 @@
         "tmp%9#0"
       ]
     },
-    "341": {
+    "357": {
       "op": "bytec_0 // \"asset_deposits\"",
       "stack_out": [
         "tmp%9#0",
         "\"asset_deposits\""
       ]
     },
-    "342": {
+    "358": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -1537,7 +1611,7 @@
         "materialized_values%1#0"
       ]
     },
-    "344": {
+    "360": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -1548,14 +1622,14 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "345": {
+    "361": {
       "op": "swap",
       "stack_out": [
         "box_prefixed_key%1#0",
         "tmp%9#0"
       ]
     },
-    "346": {
+    "362": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -1566,21 +1640,21 @@
         "encoded_value%0#0"
       ]
     },
-    "347": {
+    "363": {
       "op": "box_put",
       "stack_out": []
     },
-    "348": {
+    "364": {
       "op": "intc_1 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "349": {
+    "365": {
       "op": "return",
       "stack_out": []
     },
-    "350": {
+    "366": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.withdraw_algo[routing]",
       "params": {},
       "block": "withdraw_algo",
@@ -1593,7 +1667,7 @@
         "amount#0"
       ]
     },
-    "353": {
+    "369": {
       "op": "dup",
       "defined_out": [
         "amount#0",
@@ -1604,7 +1678,7 @@
         "amount#0 (copy)"
       ]
     },
-    "354": {
+    "370": {
       "op": "len",
       "defined_out": [
         "amount#0",
@@ -1615,7 +1689,7 @@
         "len%0#0"
       ]
     },
-    "355": {
+    "371": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1628,7 +1702,7 @@
         "8"
       ]
     },
-    "356": {
+    "372": {
       "op": "==",
       "defined_out": [
         "amount#0",
@@ -1639,14 +1713,14 @@
         "eq%0#0"
       ]
     },
-    "357": {
+    "373": {
       "error": "invalid number of bytes for uint64",
       "op": "assert // invalid number of bytes for uint64",
       "stack_out": [
         "amount#0"
       ]
     },
-    "358": {
+    "374": {
       "op": "bytec_3 // \"whitelist\"",
       "defined_out": [
         "\"whitelist\"",
@@ -1657,7 +1731,7 @@
         "\"whitelist\""
       ]
     },
-    "359": {
+    "375": {
       "op": "txn Sender",
       "defined_out": [
         "\"whitelist\"",
@@ -1670,7 +1744,7 @@
         "materialized_values%0#0"
       ]
     },
-    "361": {
+    "377": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -1681,7 +1755,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "362": {
+    "378": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -1694,7 +1768,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "363": {
+    "379": {
       "op": "bytec_1 // 0x00",
       "defined_out": [
         "0x00",
@@ -1709,7 +1783,7 @@
         "0x00"
       ]
     },
-    "364": {
+    "380": {
       "op": "cover 2",
       "stack_out": [
         "amount#0",
@@ -1718,7 +1792,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "366": {
+    "382": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -1729,7 +1803,7 @@
         "state_get%0#0"
       ]
     },
-    "367": {
+    "383": {
       "op": "bytec_1 // 0x00",
       "stack_out": [
         "amount#0",
@@ -1737,7 +1811,7 @@
         "0x00"
       ]
     },
-    "368": {
+    "384": {
       "op": "!=",
       "defined_out": [
         "amount#0",
@@ -1748,14 +1822,14 @@
         "tmp%2#0"
       ]
     },
-    "369": {
+    "385": {
       "error": "NOT_WHITELISTED",
       "op": "assert // NOT_WHITELISTED",
       "stack_out": [
         "amount#0"
       ]
     },
-    "370": {
+    "386": {
       "op": "bytec 4 // \"algo_deposits\"",
       "defined_out": [
         "\"algo_deposits\"",
@@ -1766,7 +1840,7 @@
         "\"algo_deposits\""
       ]
     },
-    "372": {
+    "388": {
       "op": "txn Sender",
       "defined_out": [
         "\"algo_deposits\"",
@@ -1779,7 +1853,7 @@
         "materialized_values%1#0"
       ]
     },
-    "374": {
+    "390": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -1790,7 +1864,7 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "375": {
+    "391": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -1803,7 +1877,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "376": {
+    "392": {
       "op": "swap",
       "stack_out": [
         "amount#0",
@@ -1811,7 +1885,7 @@
         "maybe_value%1#0"
       ]
     },
-    "377": {
+    "393": {
       "op": "btoi",
       "defined_out": [
         "amount#0",
@@ -1824,7 +1898,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "378": {
+    "394": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -1839,7 +1913,7 @@
         "0"
       ]
     },
-    "379": {
+    "395": {
       "op": "swap",
       "stack_out": [
         "amount#0",
@@ -1848,7 +1922,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "380": {
+    "396": {
       "op": "uncover 2",
       "stack_out": [
         "amount#0",
@@ -1857,7 +1931,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "382": {
+    "398": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -1868,14 +1942,14 @@
         "current#0"
       ]
     },
-    "383": {
+    "399": {
       "op": "swap",
       "stack_out": [
         "current#0",
         "amount#0"
       ]
     },
-    "384": {
+    "400": {
       "op": "btoi",
       "defined_out": [
         "current#0",
@@ -1886,7 +1960,7 @@
         "tmp%3#0"
       ]
     },
-    "385": {
+    "401": {
       "op": "dup2",
       "defined_out": [
         "current#0",
@@ -1901,7 +1975,7 @@
         "tmp%3#0 (copy)"
       ]
     },
-    "386": {
+    "402": {
       "op": ">=",
       "defined_out": [
         "current#0",
@@ -1914,7 +1988,7 @@
         "tmp%4#0"
       ]
     },
-    "387": {
+    "403": {
       "error": "INSUFFICIENT_BALANCE",
       "op": "assert // INSUFFICIENT_BALANCE",
       "stack_out": [
@@ -1922,14 +1996,14 @@
         "tmp%3#0"
       ]
     },
-    "388": {
+    "404": {
       "op": "swap",
       "stack_out": [
         "tmp%3#0",
         "current#0"
       ]
     },
-    "389": {
+    "405": {
       "op": "dig 1",
       "stack_out": [
         "tmp%3#0",
@@ -1937,7 +2011,7 @@
         "tmp%3#0 (copy)"
       ]
     },
-    "391": {
+    "407": {
       "op": "-",
       "defined_out": [
         "tmp%3#0",
@@ -1948,7 +2022,7 @@
         "tmp%6#0"
       ]
     },
-    "392": {
+    "408": {
       "op": "bytec 4 // \"algo_deposits\"",
       "stack_out": [
         "tmp%3#0",
@@ -1956,7 +2030,7 @@
         "\"algo_deposits\""
       ]
     },
-    "394": {
+    "410": {
       "op": "txn Sender",
       "defined_out": [
         "\"algo_deposits\"",
@@ -1971,7 +2045,7 @@
         "materialized_values%2#0"
       ]
     },
-    "396": {
+    "412": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%2#0",
@@ -1984,7 +2058,7 @@
         "box_prefixed_key%2#0"
       ]
     },
-    "397": {
+    "413": {
       "op": "swap",
       "stack_out": [
         "tmp%3#0",
@@ -1992,7 +2066,7 @@
         "tmp%6#0"
       ]
     },
-    "398": {
+    "414": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%2#0",
@@ -2005,16 +2079,16 @@
         "encoded_value%0#0"
       ]
     },
-    "399": {
+    "415": {
       "op": "box_put",
       "stack_out": [
         "tmp%3#0"
       ]
     },
-    "400": {
+    "416": {
       "op": "itxn_begin"
     },
-    "401": {
+    "417": {
       "op": "txn Sender",
       "defined_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0",
@@ -2025,14 +2099,14 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "403": {
+    "419": {
       "op": "itxn_field Receiver"
     },
-    "405": {
+    "421": {
       "op": "itxn_field Amount",
       "stack_out": []
     },
-    "407": {
+    "423": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay"
@@ -2041,24 +2115,24 @@
         "pay"
       ]
     },
-    "408": {
+    "424": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "410": {
+    "426": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "411": {
+    "427": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "413": {
+    "429": {
       "op": "itxn_submit"
     },
-    "414": {
+    "430": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -2067,11 +2141,11 @@
         "1"
       ]
     },
-    "415": {
+    "431": {
       "op": "return",
       "stack_out": []
     },
-    "416": {
+    "432": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.withdraw_asset[routing]",
       "params": {},
       "block": "withdraw_asset",
@@ -2084,7 +2158,7 @@
         "amount#0"
       ]
     },
-    "419": {
+    "435": {
       "op": "dup",
       "defined_out": [
         "amount#0",
@@ -2095,7 +2169,7 @@
         "amount#0 (copy)"
       ]
     },
-    "420": {
+    "436": {
       "op": "len",
       "defined_out": [
         "amount#0",
@@ -2106,7 +2180,7 @@
         "len%0#0"
       ]
     },
-    "421": {
+    "437": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -2119,7 +2193,7 @@
         "8"
       ]
     },
-    "422": {
+    "438": {
       "op": "==",
       "defined_out": [
         "amount#0",
@@ -2130,14 +2204,14 @@
         "eq%0#0"
       ]
     },
-    "423": {
+    "439": {
       "error": "invalid number of bytes for uint64",
       "op": "assert // invalid number of bytes for uint64",
       "stack_out": [
         "amount#0"
       ]
     },
-    "424": {
+    "440": {
       "op": "bytec_3 // \"whitelist\"",
       "defined_out": [
         "\"whitelist\"",
@@ -2148,7 +2222,7 @@
         "\"whitelist\""
       ]
     },
-    "425": {
+    "441": {
       "op": "txn Sender",
       "defined_out": [
         "\"whitelist\"",
@@ -2161,7 +2235,7 @@
         "materialized_values%0#0"
       ]
     },
-    "427": {
+    "443": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -2172,7 +2246,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "428": {
+    "444": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -2185,7 +2259,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "429": {
+    "445": {
       "op": "bytec_1 // 0x00",
       "defined_out": [
         "0x00",
@@ -2200,7 +2274,7 @@
         "0x00"
       ]
     },
-    "430": {
+    "446": {
       "op": "cover 2",
       "stack_out": [
         "amount#0",
@@ -2209,7 +2283,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "432": {
+    "448": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -2220,7 +2294,7 @@
         "state_get%0#0"
       ]
     },
-    "433": {
+    "449": {
       "op": "bytec_1 // 0x00",
       "stack_out": [
         "amount#0",
@@ -2228,7 +2302,7 @@
         "0x00"
       ]
     },
-    "434": {
+    "450": {
       "op": "!=",
       "defined_out": [
         "amount#0",
@@ -2239,14 +2313,14 @@
         "tmp%2#0"
       ]
     },
-    "435": {
+    "451": {
       "error": "NOT_WHITELISTED",
       "op": "assert // NOT_WHITELISTED",
       "stack_out": [
         "amount#0"
       ]
     },
-    "436": {
+    "452": {
       "op": "bytec_0 // \"asset_deposits\"",
       "defined_out": [
         "\"asset_deposits\"",
@@ -2257,7 +2331,7 @@
         "\"asset_deposits\""
       ]
     },
-    "437": {
+    "453": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -2270,7 +2344,7 @@
         "materialized_values%1#0"
       ]
     },
-    "439": {
+    "455": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -2281,7 +2355,7 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "440": {
+    "456": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -2294,7 +2368,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "441": {
+    "457": {
       "op": "swap",
       "stack_out": [
         "amount#0",
@@ -2302,7 +2376,7 @@
         "maybe_value%1#0"
       ]
     },
-    "442": {
+    "458": {
       "op": "btoi",
       "defined_out": [
         "amount#0",
@@ -2315,7 +2389,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "443": {
+    "459": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -2330,7 +2404,7 @@
         "0"
       ]
     },
-    "444": {
+    "460": {
       "op": "swap",
       "stack_out": [
         "amount#0",
@@ -2339,7 +2413,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "445": {
+    "461": {
       "op": "uncover 2",
       "stack_out": [
         "amount#0",
@@ -2348,7 +2422,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "447": {
+    "463": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -2359,14 +2433,14 @@
         "current#0"
       ]
     },
-    "448": {
+    "464": {
       "op": "swap",
       "stack_out": [
         "current#0",
         "amount#0"
       ]
     },
-    "449": {
+    "465": {
       "op": "btoi",
       "defined_out": [
         "current#0",
@@ -2377,7 +2451,7 @@
         "tmp%3#0"
       ]
     },
-    "450": {
+    "466": {
       "op": "dup2",
       "defined_out": [
         "current#0",
@@ -2392,7 +2466,7 @@
         "tmp%3#0 (copy)"
       ]
     },
-    "451": {
+    "467": {
       "op": ">=",
       "defined_out": [
         "current#0",
@@ -2405,7 +2479,7 @@
         "tmp%4#0"
       ]
     },
-    "452": {
+    "468": {
       "error": "INSUFFICIENT_BALANCE",
       "op": "assert // INSUFFICIENT_BALANCE",
       "stack_out": [
@@ -2413,14 +2487,14 @@
         "tmp%3#0"
       ]
     },
-    "453": {
+    "469": {
       "op": "swap",
       "stack_out": [
         "tmp%3#0",
         "current#0"
       ]
     },
-    "454": {
+    "470": {
       "op": "dig 1",
       "stack_out": [
         "tmp%3#0",
@@ -2428,7 +2502,7 @@
         "tmp%3#0 (copy)"
       ]
     },
-    "456": {
+    "472": {
       "op": "-",
       "defined_out": [
         "tmp%3#0",
@@ -2439,7 +2513,7 @@
         "tmp%6#0"
       ]
     },
-    "457": {
+    "473": {
       "op": "bytec_0 // \"asset_deposits\"",
       "stack_out": [
         "tmp%3#0",
@@ -2447,7 +2521,7 @@
         "\"asset_deposits\""
       ]
     },
-    "458": {
+    "474": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -2462,7 +2536,7 @@
         "materialized_values%2#0"
       ]
     },
-    "460": {
+    "476": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%2#0",
@@ -2475,7 +2549,7 @@
         "box_prefixed_key%2#0"
       ]
     },
-    "461": {
+    "477": {
       "op": "swap",
       "stack_out": [
         "tmp%3#0",
@@ -2483,7 +2557,7 @@
         "tmp%6#0"
       ]
     },
-    "462": {
+    "478": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%2#0",
@@ -2496,23 +2570,23 @@
         "encoded_value%0#0"
       ]
     },
-    "463": {
+    "479": {
       "op": "box_put",
       "stack_out": [
         "tmp%3#0"
       ]
     },
-    "464": {
+    "480": {
       "op": "itxn_begin"
     },
-    "465": {
+    "481": {
       "op": "intc_0 // 0",
       "stack_out": [
         "tmp%3#0",
         "0"
       ]
     },
-    "466": {
+    "482": {
       "op": "bytec_2 // \"vault_asset\"",
       "defined_out": [
         "\"vault_asset\"",
@@ -2525,7 +2599,7 @@
         "\"vault_asset\""
       ]
     },
-    "467": {
+    "483": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -2538,7 +2612,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "468": {
+    "484": {
       "error": "check self.vault_asset exists",
       "op": "assert // check self.vault_asset exists",
       "stack_out": [
@@ -2546,7 +2620,7 @@
         "maybe_value%2#0"
       ]
     },
-    "469": {
+    "485": {
       "op": "txn Sender",
       "defined_out": [
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
@@ -2559,7 +2633,7 @@
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
       ]
     },
-    "471": {
+    "487": {
       "op": "uncover 2",
       "stack_out": [
         "maybe_value%2#0",
@@ -2567,24 +2641,24 @@
         "tmp%3#0"
       ]
     },
-    "473": {
+    "489": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "maybe_value%2#0",
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
       ]
     },
-    "475": {
+    "491": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "maybe_value%2#0"
       ]
     },
-    "477": {
+    "493": {
       "op": "itxn_field XferAsset",
       "stack_out": []
     },
-    "479": {
+    "495": {
       "op": "intc_3 // axfer",
       "defined_out": [
         "axfer"
@@ -2593,24 +2667,24 @@
         "axfer"
       ]
     },
-    "480": {
+    "496": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "482": {
+    "498": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "483": {
+    "499": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "485": {
+    "501": {
       "op": "itxn_submit"
     },
-    "486": {
+    "502": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -2619,11 +2693,11 @@
         "1"
       ]
     },
-    "487": {
+    "503": {
       "op": "return",
       "stack_out": []
     },
-    "488": {
+    "504": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.borrow_to_merchant[routing]",
       "params": {},
       "block": "borrow_to_merchant",
@@ -2636,7 +2710,7 @@
         "merchant#0"
       ]
     },
-    "491": {
+    "507": {
       "op": "dup",
       "defined_out": [
         "merchant#0",
@@ -2647,7 +2721,7 @@
         "merchant#0 (copy)"
       ]
     },
-    "492": {
+    "508": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -2658,7 +2732,7 @@
         "len%0#0"
       ]
     },
-    "493": {
+    "509": {
       "op": "pushint 32 // 32",
       "defined_out": [
         "32",
@@ -2671,7 +2745,7 @@
         "32"
       ]
     },
-    "495": {
+    "511": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -2682,14 +2756,14 @@
         "eq%0#0"
       ]
     },
-    "496": {
+    "512": {
       "error": "invalid number of bytes for uint8[32]",
       "op": "assert // invalid number of bytes for uint8[32]",
       "stack_out": [
         "merchant#0"
       ]
     },
-    "497": {
+    "513": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "amount#0",
@@ -2700,7 +2774,7 @@
         "amount#0"
       ]
     },
-    "500": {
+    "516": {
       "op": "dup",
       "defined_out": [
         "amount#0",
@@ -2713,7 +2787,7 @@
         "amount#0 (copy)"
       ]
     },
-    "501": {
+    "517": {
       "op": "len",
       "defined_out": [
         "amount#0",
@@ -2726,7 +2800,7 @@
         "len%1#0"
       ]
     },
-    "502": {
+    "518": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -2741,7 +2815,7 @@
         "8"
       ]
     },
-    "503": {
+    "519": {
       "op": "==",
       "defined_out": [
         "amount#0",
@@ -2754,7 +2828,7 @@
         "eq%1#0"
       ]
     },
-    "504": {
+    "520": {
       "error": "invalid number of bytes for uint64",
       "op": "assert // invalid number of bytes for uint64",
       "stack_out": [
@@ -2762,7 +2836,7 @@
         "amount#0"
       ]
     },
-    "505": {
+    "521": {
       "op": "bytec_3 // \"whitelist\"",
       "defined_out": [
         "\"whitelist\"",
@@ -2775,7 +2849,7 @@
         "\"whitelist\""
       ]
     },
-    "506": {
+    "522": {
       "op": "txn Sender",
       "defined_out": [
         "\"whitelist\"",
@@ -2790,7 +2864,7 @@
         "materialized_values%0#0"
       ]
     },
-    "508": {
+    "524": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -2803,7 +2877,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "509": {
+    "525": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -2818,7 +2892,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "510": {
+    "526": {
       "op": "bytec_1 // 0x00",
       "defined_out": [
         "0x00",
@@ -2835,7 +2909,7 @@
         "0x00"
       ]
     },
-    "511": {
+    "527": {
       "op": "cover 2",
       "stack_out": [
         "merchant#0",
@@ -2845,7 +2919,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "513": {
+    "529": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -2858,7 +2932,7 @@
         "state_get%0#0"
       ]
     },
-    "514": {
+    "530": {
       "op": "bytec_1 // 0x00",
       "stack_out": [
         "merchant#0",
@@ -2867,7 +2941,7 @@
         "0x00"
       ]
     },
-    "515": {
+    "531": {
       "op": "!=",
       "defined_out": [
         "amount#0",
@@ -2880,7 +2954,7 @@
         "tmp%2#1"
       ]
     },
-    "516": {
+    "532": {
       "error": "CREDIT_OFFICER_NOT_WHITELISTED",
       "op": "assert // CREDIT_OFFICER_NOT_WHITELISTED",
       "stack_out": [
@@ -2888,7 +2962,7 @@
         "amount#0"
       ]
     },
-    "517": {
+    "533": {
       "op": "bytec_3 // \"whitelist\"",
       "stack_out": [
         "merchant#0",
@@ -2896,7 +2970,7 @@
         "\"whitelist\""
       ]
     },
-    "518": {
+    "534": {
       "op": "dig 2",
       "stack_out": [
         "merchant#0",
@@ -2905,7 +2979,7 @@
         "merchant#0 (copy)"
       ]
     },
-    "520": {
+    "536": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -2918,7 +2992,7 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "521": {
+    "537": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -2933,7 +3007,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "522": {
+    "538": {
       "op": "bytec_1 // 0x00",
       "stack_out": [
         "merchant#0",
@@ -2943,7 +3017,7 @@
         "0x00"
       ]
     },
-    "523": {
+    "539": {
       "op": "cover 2",
       "stack_out": [
         "merchant#0",
@@ -2953,7 +3027,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "525": {
+    "541": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -2966,7 +3040,7 @@
         "state_get%1#0"
       ]
     },
-    "526": {
+    "542": {
       "op": "bytec_1 // 0x00",
       "stack_out": [
         "merchant#0",
@@ -2975,7 +3049,7 @@
         "0x00"
       ]
     },
-    "527": {
+    "543": {
       "op": "!=",
       "defined_out": [
         "amount#0",
@@ -2988,7 +3062,7 @@
         "tmp%5#0"
       ]
     },
-    "528": {
+    "544": {
       "error": "MERCHANT_NOT_WHITELISTED",
       "op": "assert // MERCHANT_NOT_WHITELISTED",
       "stack_out": [
@@ -2996,7 +3070,7 @@
         "amount#0"
       ]
     },
-    "529": {
+    "545": {
       "op": "bytec_0 // \"asset_deposits\"",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3009,7 +3083,7 @@
         "\"asset_deposits\""
       ]
     },
-    "530": {
+    "546": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3024,7 +3098,7 @@
         "materialized_values%1#0"
       ]
     },
-    "532": {
+    "548": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -3037,7 +3111,7 @@
         "box_prefixed_key%2#0"
       ]
     },
-    "533": {
+    "549": {
       "op": "box_get",
       "defined_out": [
         "amount#0",
@@ -3052,7 +3126,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "534": {
+    "550": {
       "op": "swap",
       "stack_out": [
         "merchant#0",
@@ -3061,7 +3135,7 @@
         "maybe_value%2#0"
       ]
     },
-    "535": {
+    "551": {
       "op": "btoi",
       "defined_out": [
         "amount#0",
@@ -3076,7 +3150,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "536": {
+    "552": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3093,7 +3167,7 @@
         "0"
       ]
     },
-    "537": {
+    "553": {
       "op": "swap",
       "stack_out": [
         "merchant#0",
@@ -3103,7 +3177,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "538": {
+    "554": {
       "op": "uncover 2",
       "stack_out": [
         "merchant#0",
@@ -3113,7 +3187,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "540": {
+    "556": {
       "op": "select",
       "defined_out": [
         "amount#0",
@@ -3126,7 +3200,7 @@
         "vault_balance#0"
       ]
     },
-    "541": {
+    "557": {
       "op": "swap",
       "stack_out": [
         "merchant#0",
@@ -3134,7 +3208,7 @@
         "amount#0"
       ]
     },
-    "542": {
+    "558": {
       "op": "btoi",
       "defined_out": [
         "merchant#0",
@@ -3147,7 +3221,7 @@
         "tmp%6#0"
       ]
     },
-    "543": {
+    "559": {
       "op": "dup2",
       "defined_out": [
         "merchant#0",
@@ -3164,7 +3238,7 @@
         "tmp%6#0 (copy)"
       ]
     },
-    "544": {
+    "560": {
       "op": ">=",
       "defined_out": [
         "merchant#0",
@@ -3179,7 +3253,7 @@
         "tmp%7#0"
       ]
     },
-    "545": {
+    "561": {
       "error": "VAULT_EMPTY",
       "op": "assert // VAULT_EMPTY",
       "stack_out": [
@@ -3188,7 +3262,7 @@
         "tmp%6#0"
       ]
     },
-    "546": {
+    "562": {
       "op": "swap",
       "stack_out": [
         "merchant#0",
@@ -3196,7 +3270,7 @@
         "vault_balance#0"
       ]
     },
-    "547": {
+    "563": {
       "op": "dig 1",
       "stack_out": [
         "merchant#0",
@@ -3205,7 +3279,7 @@
         "tmp%6#0 (copy)"
       ]
     },
-    "549": {
+    "565": {
       "op": "-",
       "defined_out": [
         "merchant#0",
@@ -3218,7 +3292,7 @@
         "tmp%9#0"
       ]
     },
-    "550": {
+    "566": {
       "op": "bytec_0 // \"asset_deposits\"",
       "stack_out": [
         "merchant#0",
@@ -3227,7 +3301,7 @@
         "\"asset_deposits\""
       ]
     },
-    "551": {
+    "567": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3244,7 +3318,7 @@
         "materialized_values%2#0"
       ]
     },
-    "553": {
+    "569": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%3#0",
@@ -3259,7 +3333,7 @@
         "box_prefixed_key%3#0"
       ]
     },
-    "554": {
+    "570": {
       "op": "swap",
       "stack_out": [
         "merchant#0",
@@ -3268,7 +3342,7 @@
         "tmp%9#0"
       ]
     },
-    "555": {
+    "571": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%3#0",
@@ -3283,17 +3357,17 @@
         "encoded_value%0#0"
       ]
     },
-    "556": {
+    "572": {
       "op": "box_put",
       "stack_out": [
         "merchant#0",
         "tmp%6#0"
       ]
     },
-    "557": {
+    "573": {
       "op": "itxn_begin"
     },
-    "558": {
+    "574": {
       "op": "intc_0 // 0",
       "stack_out": [
         "merchant#0",
@@ -3301,7 +3375,7 @@
         "0"
       ]
     },
-    "559": {
+    "575": {
       "op": "bytec_2 // \"vault_asset\"",
       "defined_out": [
         "\"vault_asset\"",
@@ -3316,7 +3390,7 @@
         "\"vault_asset\""
       ]
     },
-    "560": {
+    "576": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%3#0",
@@ -3331,7 +3405,7 @@
         "maybe_exists%3#0"
       ]
     },
-    "561": {
+    "577": {
       "error": "check self.vault_asset exists",
       "op": "assert // check self.vault_asset exists",
       "stack_out": [
@@ -3340,21 +3414,21 @@
         "maybe_value%3#0"
       ]
     },
-    "562": {
+    "578": {
       "op": "itxn_field XferAsset"
     },
-    "564": {
+    "580": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "merchant#0",
         "maybe_value%3#0"
       ]
     },
-    "566": {
+    "582": {
       "op": "itxn_field AssetReceiver",
       "stack_out": []
     },
-    "568": {
+    "584": {
       "op": "intc_3 // axfer",
       "defined_out": [
         "axfer"
@@ -3363,24 +3437,24 @@
         "axfer"
       ]
     },
-    "569": {
+    "585": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "571": {
+    "587": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "572": {
+    "588": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "574": {
+    "590": {
       "op": "itxn_submit"
     },
-    "575": {
+    "591": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -3389,11 +3463,11 @@
         "1"
       ]
     },
-    "576": {
+    "592": {
       "op": "return",
       "stack_out": []
     },
-    "577": {
+    "593": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.repay_loan[routing]",
       "params": {},
       "block": "repay_loan",
@@ -3406,7 +3480,7 @@
         "tmp%0#0"
       ]
     },
-    "579": {
+    "595": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -3417,7 +3491,7 @@
         "1"
       ]
     },
-    "580": {
+    "596": {
       "op": "-",
       "defined_out": [
         "asset_txn#0"
@@ -3426,7 +3500,7 @@
         "asset_txn#0"
       ]
     },
-    "581": {
+    "597": {
       "op": "dup",
       "defined_out": [
         "asset_txn#0",
@@ -3437,7 +3511,7 @@
         "asset_txn#0 (copy)"
       ]
     },
-    "582": {
+    "598": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "asset_txn#0",
@@ -3448,7 +3522,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "584": {
+    "600": {
       "op": "intc_3 // axfer",
       "defined_out": [
         "asset_txn#0",
@@ -3461,7 +3535,7 @@
         "axfer"
       ]
     },
-    "585": {
+    "601": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -3472,28 +3546,28 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "586": {
+    "602": {
       "error": "transaction type is axfer",
       "op": "assert // transaction type is axfer",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "587": {
+    "603": {
       "op": "dup",
       "stack_out": [
         "asset_txn#0",
         "asset_txn#0 (copy)"
       ]
     },
-    "588": {
+    "604": {
       "op": "gtxns XferAsset",
       "stack_out": [
         "asset_txn#0",
         "tmp%0#0"
       ]
     },
-    "590": {
+    "606": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3506,7 +3580,7 @@
         "0"
       ]
     },
-    "591": {
+    "607": {
       "op": "bytec_2 // \"vault_asset\"",
       "defined_out": [
         "\"vault_asset\"",
@@ -3521,7 +3595,7 @@
         "\"vault_asset\""
       ]
     },
-    "592": {
+    "608": {
       "op": "app_global_get_ex",
       "defined_out": [
         "asset_txn#0",
@@ -3536,7 +3610,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "593": {
+    "609": {
       "error": "check self.vault_asset exists",
       "op": "assert // check self.vault_asset exists",
       "stack_out": [
@@ -3545,7 +3619,7 @@
         "maybe_value%0#0"
       ]
     },
-    "594": {
+    "610": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -3556,21 +3630,21 @@
         "tmp%1#0"
       ]
     },
-    "595": {
+    "611": {
       "error": "INVALID_ASSET",
       "op": "assert // INVALID_ASSET",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "596": {
+    "612": {
       "op": "dup",
       "stack_out": [
         "asset_txn#0",
         "asset_txn#0 (copy)"
       ]
     },
-    "597": {
+    "613": {
       "op": "gtxns AssetReceiver",
       "defined_out": [
         "asset_txn#0",
@@ -3581,7 +3655,7 @@
         "tmp%2#0"
       ]
     },
-    "599": {
+    "615": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "asset_txn#0",
@@ -3594,7 +3668,7 @@
         "tmp%3#0"
       ]
     },
-    "601": {
+    "617": {
       "op": "==",
       "defined_out": [
         "asset_txn#0",
@@ -3605,14 +3679,14 @@
         "tmp%4#0"
       ]
     },
-    "602": {
+    "618": {
       "error": "WRONG_RECEIVER",
       "op": "assert // WRONG_RECEIVER",
       "stack_out": [
         "asset_txn#0"
       ]
     },
-    "603": {
+    "619": {
       "op": "bytec_0 // \"asset_deposits\"",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3623,7 +3697,7 @@
         "\"asset_deposits\""
       ]
     },
-    "604": {
+    "620": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3636,7 +3710,7 @@
         "materialized_values%0#0"
       ]
     },
-    "606": {
+    "622": {
       "op": "concat",
       "defined_out": [
         "asset_txn#0",
@@ -3647,7 +3721,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "607": {
+    "623": {
       "op": "box_get",
       "defined_out": [
         "asset_txn#0",
@@ -3660,7 +3734,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "608": {
+    "624": {
       "op": "swap",
       "stack_out": [
         "asset_txn#0",
@@ -3668,7 +3742,7 @@
         "maybe_value%1#0"
       ]
     },
-    "609": {
+    "625": {
       "op": "btoi",
       "defined_out": [
         "asset_txn#0",
@@ -3681,7 +3755,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "610": {
+    "626": {
       "op": "intc_0 // 0",
       "stack_out": [
         "asset_txn#0",
@@ -3690,7 +3764,7 @@
         "0"
       ]
     },
-    "611": {
+    "627": {
       "op": "swap",
       "stack_out": [
         "asset_txn#0",
@@ -3699,7 +3773,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "612": {
+    "628": {
       "op": "uncover 2",
       "stack_out": [
         "asset_txn#0",
@@ -3708,7 +3782,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "614": {
+    "630": {
       "op": "select",
       "defined_out": [
         "asset_txn#0",
@@ -3719,14 +3793,14 @@
         "current#0"
       ]
     },
-    "615": {
+    "631": {
       "op": "swap",
       "stack_out": [
         "current#0",
         "asset_txn#0"
       ]
     },
-    "616": {
+    "632": {
       "op": "gtxns AssetAmount",
       "defined_out": [
         "current#0",
@@ -3737,7 +3811,7 @@
         "tmp%5#0"
       ]
     },
-    "618": {
+    "634": {
       "op": "+",
       "defined_out": [
         "tmp%6#0"
@@ -3746,14 +3820,14 @@
         "tmp%6#0"
       ]
     },
-    "619": {
+    "635": {
       "op": "bytec_0 // \"asset_deposits\"",
       "stack_out": [
         "tmp%6#0",
         "\"asset_deposits\""
       ]
     },
-    "620": {
+    "636": {
       "op": "txn Sender",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3766,7 +3840,7 @@
         "materialized_values%1#0"
       ]
     },
-    "622": {
+    "638": {
       "op": "concat",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -3777,14 +3851,14 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "623": {
+    "639": {
       "op": "swap",
       "stack_out": [
         "box_prefixed_key%1#0",
         "tmp%6#0"
       ]
     },
-    "624": {
+    "640": {
       "op": "itob",
       "defined_out": [
         "box_prefixed_key%1#0",
@@ -3795,21 +3869,21 @@
         "encoded_value%0#0"
       ]
     },
-    "625": {
+    "641": {
       "op": "box_put",
       "stack_out": []
     },
-    "626": {
+    "642": {
       "op": "intc_1 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "627": {
+    "643": {
       "op": "return",
       "stack_out": []
     },
-    "628": {
+    "644": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.get_balance[routing]",
       "params": {},
       "block": "get_balance",
@@ -3822,7 +3896,7 @@
         "account#0"
       ]
     },
-    "631": {
+    "647": {
       "op": "dup",
       "defined_out": [
         "account#0",
@@ -3833,7 +3907,7 @@
         "account#0 (copy)"
       ]
     },
-    "632": {
+    "648": {
       "op": "len",
       "defined_out": [
         "account#0",
@@ -3844,7 +3918,7 @@
         "len%0#0"
       ]
     },
-    "633": {
+    "649": {
       "op": "pushint 32 // 32",
       "defined_out": [
         "32",
@@ -3857,7 +3931,7 @@
         "32"
       ]
     },
-    "635": {
+    "651": {
       "op": "==",
       "defined_out": [
         "account#0",
@@ -3868,14 +3942,14 @@
         "eq%0#0"
       ]
     },
-    "636": {
+    "652": {
       "error": "invalid number of bytes for uint8[32]",
       "op": "assert // invalid number of bytes for uint8[32]",
       "stack_out": [
         "account#0"
       ]
     },
-    "637": {
+    "653": {
       "op": "bytec 4 // \"algo_deposits\"",
       "defined_out": [
         "\"algo_deposits\"",
@@ -3886,7 +3960,7 @@
         "\"algo_deposits\""
       ]
     },
-    "639": {
+    "655": {
       "op": "dig 1",
       "stack_out": [
         "account#0",
@@ -3894,7 +3968,7 @@
         "account#0 (copy)"
       ]
     },
-    "641": {
+    "657": {
       "op": "concat",
       "defined_out": [
         "account#0",
@@ -3905,7 +3979,7 @@
         "box_prefixed_key%0#0"
       ]
     },
-    "642": {
+    "658": {
       "op": "box_get",
       "defined_out": [
         "account#0",
@@ -3918,7 +3992,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "643": {
+    "659": {
       "op": "swap",
       "stack_out": [
         "account#0",
@@ -3926,7 +4000,7 @@
         "maybe_value%0#0"
       ]
     },
-    "644": {
+    "660": {
       "op": "btoi",
       "defined_out": [
         "account#0",
@@ -3939,7 +4013,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "645": {
+    "661": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3954,7 +4028,7 @@
         "0"
       ]
     },
-    "646": {
+    "662": {
       "op": "swap",
       "stack_out": [
         "account#0",
@@ -3963,7 +4037,7 @@
         "maybe_value_converted%0#0"
       ]
     },
-    "647": {
+    "663": {
       "op": "uncover 2",
       "stack_out": [
         "account#0",
@@ -3972,7 +4046,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "649": {
+    "665": {
       "op": "select",
       "defined_out": [
         "account#0",
@@ -3983,7 +4057,7 @@
         "algo_balance#0"
       ]
     },
-    "650": {
+    "666": {
       "op": "bytec_0 // \"asset_deposits\"",
       "defined_out": [
         "\"asset_deposits\"",
@@ -3996,7 +4070,7 @@
         "\"asset_deposits\""
       ]
     },
-    "651": {
+    "667": {
       "op": "uncover 2",
       "stack_out": [
         "algo_balance#0",
@@ -4004,7 +4078,7 @@
         "account#0"
       ]
     },
-    "653": {
+    "669": {
       "op": "concat",
       "defined_out": [
         "algo_balance#0",
@@ -4015,7 +4089,7 @@
         "box_prefixed_key%1#0"
       ]
     },
-    "654": {
+    "670": {
       "op": "box_get",
       "defined_out": [
         "algo_balance#0",
@@ -4028,7 +4102,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "655": {
+    "671": {
       "op": "swap",
       "stack_out": [
         "algo_balance#0",
@@ -4036,7 +4110,7 @@
         "maybe_value%1#0"
       ]
     },
-    "656": {
+    "672": {
       "op": "btoi",
       "defined_out": [
         "algo_balance#0",
@@ -4049,7 +4123,7 @@
         "maybe_value_converted%1#0"
       ]
     },
-    "657": {
+    "673": {
       "op": "intc_0 // 0",
       "stack_out": [
         "algo_balance#0",
@@ -4058,7 +4132,7 @@
         "0"
       ]
     },
-    "658": {
+    "674": {
       "op": "swap",
       "stack_out": [
         "algo_balance#0",
@@ -4067,7 +4141,7 @@
         "maybe_value_converted%1#0"
       ]
     },
-    "659": {
+    "675": {
       "op": "uncover 2",
       "stack_out": [
         "algo_balance#0",
@@ -4076,7 +4150,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "661": {
+    "677": {
       "op": "select",
       "defined_out": [
         "algo_balance#0",
@@ -4087,7 +4161,7 @@
         "asset_balance#0"
       ]
     },
-    "662": {
+    "678": {
       "op": "+",
       "defined_out": [
         "tmp%0#1"
@@ -4096,7 +4170,7 @@
         "tmp%0#1"
       ]
     },
-    "663": {
+    "679": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -4105,7 +4179,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "664": {
+    "680": {
       "op": "bytec 6 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -4116,14 +4190,14 @@
         "0x151f7c75"
       ]
     },
-    "666": {
+    "682": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "667": {
+    "683": {
       "op": "concat",
       "defined_out": [
         "tmp%3#0"
@@ -4132,11 +4206,11 @@
         "tmp%3#0"
       ]
     },
-    "668": {
+    "684": {
       "op": "log",
       "stack_out": []
     },
-    "669": {
+    "685": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -4145,11 +4219,11 @@
         "1"
       ]
     },
-    "670": {
+    "686": {
       "op": "return",
       "stack_out": []
     },
-    "671": {
+    "687": {
       "subroutine": "smart_contracts.vaultlending.contract.Vaultlending.hello[routing]",
       "params": {},
       "block": "hello",
@@ -4162,7 +4236,7 @@
         "tmp%0#0"
       ]
     },
-    "674": {
+    "690": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -4173,7 +4247,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "675": {
+    "691": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -4186,7 +4260,7 @@
         "0"
       ]
     },
-    "676": {
+    "692": {
       "op": "extract_uint16",
       "defined_out": [
         "aggregate%array_length%0#0",
@@ -4197,7 +4271,7 @@
         "aggregate%array_length%0#0"
       ]
     },
-    "677": {
+    "693": {
       "op": "pushint 2 // 2",
       "defined_out": [
         "2",
@@ -4210,7 +4284,7 @@
         "2"
       ]
     },
-    "679": {
+    "695": {
       "op": "+",
       "defined_out": [
         "add%0#0",
@@ -4221,7 +4295,7 @@
         "add%0#0"
       ]
     },
-    "680": {
+    "696": {
       "op": "dig 1",
       "stack_out": [
         "tmp%0#0",
@@ -4229,7 +4303,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "682": {
+    "698": {
       "op": "len",
       "defined_out": [
         "add%0#0",
@@ -4242,7 +4316,7 @@
         "len%0#0"
       ]
     },
-    "683": {
+    "699": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -4253,14 +4327,14 @@
         "eq%0#0"
       ]
     },
-    "684": {
+    "700": {
       "error": "invalid number of bytes for (len+utf8[])",
       "op": "assert // invalid number of bytes for (len+utf8[])",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "685": {
+    "701": {
       "op": "extract 2 0",
       "defined_out": [
         "name#0"
@@ -4269,7 +4343,7 @@
         "name#0"
       ]
     },
-    "688": {
+    "704": {
       "op": "pushbytes \"Hello, \"",
       "defined_out": [
         "\"Hello, \"",
@@ -4280,27 +4354,27 @@
         "\"Hello, \""
       ]
     },
-    "697": {
+    "713": {
       "op": "swap",
       "stack_out": [
         "\"Hello, \"",
         "name#0"
       ]
     },
-    "698": {
+    "714": {
       "op": "concat",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "699": {
+    "715": {
       "op": "dup",
       "stack_out": [
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ]
     },
-    "700": {
+    "716": {
       "op": "len",
       "defined_out": [
         "aggregate%length%0#0",
@@ -4311,7 +4385,7 @@
         "aggregate%length%0#0"
       ]
     },
-    "701": {
+    "717": {
       "op": "itob",
       "defined_out": [
         "aggregate%as_bytes%0#0",
@@ -4322,7 +4396,7 @@
         "aggregate%as_bytes%0#0"
       ]
     },
-    "702": {
+    "718": {
       "op": "extract 6 2",
       "defined_out": [
         "aggregate%length_uint16%0#0",
@@ -4333,14 +4407,14 @@
         "aggregate%length_uint16%0#0"
       ]
     },
-    "705": {
+    "721": {
       "op": "swap",
       "stack_out": [
         "aggregate%length_uint16%0#0",
         "tmp%0#0"
       ]
     },
-    "706": {
+    "722": {
       "op": "concat",
       "defined_out": [
         "aggregate%encoded_value%0#0"
@@ -4349,7 +4423,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "707": {
+    "723": {
       "op": "bytec 6 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -4360,14 +4434,14 @@
         "0x151f7c75"
       ]
     },
-    "709": {
+    "725": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%encoded_value%0#0"
       ]
     },
-    "710": {
+    "726": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -4376,11 +4450,11 @@
         "tmp%4#0"
       ]
     },
-    "711": {
+    "727": {
       "op": "log",
       "stack_out": []
     },
-    "712": {
+    "728": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -4389,7 +4463,7 @@
         "1"
       ]
     },
-    "713": {
+    "729": {
       "op": "return",
       "stack_out": []
     }
